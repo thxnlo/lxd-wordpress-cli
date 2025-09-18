@@ -1,26 +1,25 @@
-# 🚀 LXD WordPress CLI
+# LXD WordPress CLI
 
 **Professional WordPress deployment automation made simple.**
 
 Instantly deploy production-ready WordPress sites with automated SSL, caching, and professional nginx configuration using LXD containers.
 
-## ✨ What You Get
+## What You Get
 
-- 🐳 **Isolated Containers** - WordPress, Database, and Proxy in separate LXD containers
-- ⚡ **Redis Caching** - Built-in object caching for lightning-fast performance  
-- 🔒 **Automatic SSL** - Let's Encrypt certificates with auto-renewal
-- 🌐 **Professional Proxy** - Nginx reverse proxy with security headers
-- ☁️ **Cloudflare Integration** - Automatic DNS record management
-- 🎨 **Beautiful CLI** - Interactive, user-friendly interface
-- 🔧 **Zero Configuration** - Works out of the box
+- **Isolated Containers** - WordPress, Database, and Proxy in separate LXD containers
+- **Redis Caching** - Built-in object caching for lightning-fast performance  
+- **Automatic SSL** - Let's Encrypt certificates with auto-renewal
+- **Professional Proxy** - Nginx reverse proxy with security headers
+- **Cloudflare Integration** - Automatic DNS record management
+- **Zero Configuration** - Works out of the box
 
-## 🚀 Quick Install
+## Quick Install
 
 ```bash
 curl -sSL https://github.com/thxnlo/lxdautomated/releases/latest/download/install.sh | bash
 ```
 
-## ⚡ Deploy WordPress in Minutes
+##  Deploy WordPress in Minutes
 
 ```bash
 # Interactive deployment
@@ -37,7 +36,7 @@ lxd-wp deploy \
   --admin-email admin@example.com
 ```
 
-## 📦 System Requirements
+##  System Requirements
 
 - **Ubuntu 20.04+** or compatible Linux distribution
 - **LXD** installed and initialized
@@ -52,9 +51,9 @@ sudo usermod -a -G lxd $USER
 newgrp lxd
 ```
 
-## 🎯 Features
+## Features
 
-### 🏗️ Professional Architecture
+###  Professional Architecture
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   Nginx Proxy   │    │   WordPress      │    │   Database      │
@@ -63,25 +62,25 @@ newgrp lxd
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-### 🔒 Security First
+###  Security First
 - **Isolated containers** for each service
 - **Security headers** and hardened nginx configuration
 - **Non-root WordPress** with proper file permissions
 - **Automatic security updates**
 
-### ⚡ Performance Optimized
+###  Performance Optimized
 - **Redis object caching** for WordPress
 - **Nginx caching** for static assets
 - **Optimized PHP-FPM** configuration
 - **Database query optimization**
 
-### 🌐 Production Ready
+###  Production Ready
 - **SSL certificates** with automatic renewal
 - **CDN integration** with Cloudflare
 - **Backup automation** (optional)
 - **Monitoring and logging**
 
-## 📋 Available Commands
+##  Available Commands
 
 ### Deploy a WordPress Site
 ```bash
@@ -111,21 +110,7 @@ lxd-wp remove <container-name>
 lxd-wp check
 ```
 
-## 🎨 What Makes This Special
-
-### ✅ **It Just Works**
-No complex configuration files, no Docker expertise needed. Install and deploy WordPress in under 5 minutes.
-
-### ✅ **Production Quality**
-Built with the same tools used by major hosting providers: LXD containers, nginx, Let's Encrypt SSL, Redis caching.
-
-### ✅ **Secure by Default**
-Each site runs in its own isolated container with security hardening applied automatically.
-
-### ✅ **Scales with You**
-Deploy multiple WordPress sites on the same server. Each gets its own database and isolated environment.
-
-## 🔧 Advanced Usage
+##  Advanced Usage
 
 ### Multiple Site Deployment
 ```bash
@@ -153,7 +138,7 @@ When enabled, automatically:
 - Sets up security rules
 - Enables caching policies
 
-## 🛡️ Security Features
+##  Security Features
 
 - **Container Isolation** - Each site in separate containers
 - **Non-root WordPress** - Runs as dedicated user
@@ -162,14 +147,14 @@ When enabled, automatically:
 - **SSL Enforcement** - HTTPS redirect enabled
 - **Login Protection** - Brute force protection
 
-## 📊 Performance Benefits
+##  Performance Benefits
 
 - **Lightning Fast** - Redis caching + nginx optimization
 - **Resource Efficient** - Minimal container overhead
 - **Scalable** - Deploy multiple sites without conflicts
 - **CDN Ready** - Cloudflare integration for global performance
 
-## 🆘 Support & Troubleshooting
+##  Support & Troubleshooting
 
 ### Common Issues
 
@@ -197,7 +182,7 @@ lxc exec proxy -- certbot renew
 ### Get Help
 For support and troubleshooting, check the [documentation](https://github.com/thxnlo/lxdautomated) or open an issue.
 
-## 📈 Why Choose LXD WordPress CLI?
+##  Why Choose LXD WordPress CLI?
 
 ### vs. Docker Compose
 - ✅ **Simpler setup** - No Docker knowledge required
@@ -216,13 +201,14 @@ For support and troubleshooting, check the [documentation](https://github.com/th
 
 ---
 
-## 🏆 Professional WordPress Hosting Made Simple
+##  Professional WordPress Hosting Made Simple
 
 **Stop fighting with complex configurations. Deploy WordPress like the pros.**
 
 ```bash
 curl -sSL https://github.com/thxnlo/lxdautomated/releases/latest/download/install.sh | bash
 ```
+
 
 *Built with ❤️ for WordPress developers and system administrators*
 
