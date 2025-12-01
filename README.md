@@ -16,7 +16,7 @@ Instantly deploy production-ready WordPress sites with automated SSL, caching, a
 ## Quick Install
 
 ```bash
-curl -sSL https://github.com/thxnlo/lxdautomated/releases/latest/download/install.sh | bash
+curl -sSL https://github.com/thxnlo/lxdautomated-cli/releases/latest/download/install.sh | bash
 ```
 
 ##  Deploy WordPress in Minutes
@@ -206,7 +206,7 @@ For support and troubleshooting, check the [documentation](https://github.com/th
 **Stop fighting with complex configurations. Deploy WordPress like the pros.**
 
 ```bash
-curl -sSL https://github.com/thxnlo/lxdautomated/releases/latest/download/install.sh | bash
+curl -sSL https://github.com/thxnlo/lxdautomated-cli/releases/latest/download/install.sh | bash
 ```
 
 
